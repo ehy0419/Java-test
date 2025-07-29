@@ -28,11 +28,11 @@ public class ArrayProcessor {
 //             반복할 작업
 //        }
 
-        for (int number : numbers) {
-            if (number % 2 == 0) {
-                sum += number;
-            }
-        }
+//        for (int number : numbers) {
+//            if (number % 2 == 0) {
+//                sum += number;
+//            }
+//        }                             // 같이 하면 짝수들의 합 : 80
 
 
         return sum; // 임시 반환 값
