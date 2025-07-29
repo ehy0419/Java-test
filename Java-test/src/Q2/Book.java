@@ -18,10 +18,22 @@ public class Book {
         this.price = price;
     }
 
+    ///  __ x __ x__ x__ x
     // this 가 필드(속성)을 가리키는 건지, 매개변수를 가리키는 건지..
     // this 가 가까운 것을 가리키는 것이니까
     // public Book(String title, String author, int price) 을 가리키고
     // = 오른족에 있는 title은 필드?
+
+    ///  this.title = title;
+    // this.title 은 속성(필드)
+    // title; 은 생성자의 괄호 안에서 받은 매개변수
+
+    // Book myBook = new Book("자바의 정석");
+    // this.title = thtle;
+    // "저기 위쪽에 있는 title (객체)의 필드에, 생성자로 받은 값 책 제목 "자바의 정석"을 저장하라"
+    // 단순한 설명으로,
+    /// 이 객체의 title에 = 생성자로 받은 title 값을 저장하라?
+
 
     // 메서드
     public void printInfo() {
