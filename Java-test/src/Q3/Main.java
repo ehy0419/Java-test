@@ -20,17 +20,18 @@ public class Main {
 //Shape 추상 클래스를 상속받는 Circle과 Rectangle 클래스에서 getArea() 메서드를 재정의하여 각 도형의 넓이를 구하세요.
 // 상속 - extends , implements
 
-/// 클래스 구성
+/// 2. 클래스 구성
 // shape 추상 클래스, 이를 상속하는 Circle, Rectangle
 // getArea() 메서드 오버라이딩(재정의) 하여 도형의 넓이 구하기
 
+/// 3. todo
 // Circle 은 Shape 추상 클래스를 상속받고, 반지름을 가지고 원의 넓이를 구하기
 // Rectangle 은 Shape 추상 클래스를 상속받고, 가로와 세로를 이용해 사각형의 넓이를 구하기.
-// gerAre() 메서더를 통해서 원, 사각형의 넓이를 구하는 방식을 각각 만들기.
+// gerAre() 메서드를 통해서 원, 사각형의 넓이를 구하는 방식을 각각 만들기.
 
 ///  공부 필요한 것 : extends , implements
 
-// 시도해볼 것
+/// 3. todo구체화
 // Circle 클래스에 Circle extends Shape 로 상속
 // Rectangle 클래스에 Rectangle extends Shape 로 상속
 
