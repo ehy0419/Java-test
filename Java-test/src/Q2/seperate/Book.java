@@ -16,7 +16,8 @@ public class Book {
 
     // 생성자
     // 외부에서 값을 받아 저장하는 생성자
-    // 외부는?? 필드(속성) 인가?  _ 필드(속성)은 내부인걸로 확인
+    // Q.외부는?? 필드(속성) 인가?
+    // A. 필드(속성)은 내부인걸로 확인
     // 매개변수 란 생성자 () 괄호 안에 있는 변수.
     public Book(String title, String author, int price) {
         this.title = title;
@@ -24,8 +25,17 @@ public class Book {
         this.price = price;             // 받은 값을 클래스 안의 필드에 저장.
     }
 
+
+
     // 메서드 (기능)
     public void printInfo() {
         System.out.println("제목: " + title + ",저자: " + author + ",가격: " + price);
     }
 }
+
+// Book myBook = new Book("자바의 정석");
+// this.title = thtle;
+// "저기 위쪽에 있는 title (객체)의 필드에, 생성자로 받은 값 책 제목 "자바의 정석"을 저장하라"
+// 여기에서 "자바의 정석" 이 바로 외부에서 온 그 녀석
+// 단순한 설명으로,
+/// 이 객체의 title에 = 생성자로 받은 title 값을 저장하라?

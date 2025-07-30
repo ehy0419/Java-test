@@ -4,3 +4,6 @@ package Q3;
 abstract class Shape {
     abstract double getArea(); // 넓이를 구하는 추상 메서드
 }
+
+
+///  공부할 것 : 추상 클래스, 인터페이스
